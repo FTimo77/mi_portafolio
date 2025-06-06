@@ -13,7 +13,7 @@ DATA = data.data
 
 def index() -> rx.Component:
     return rx.center(
-        # rx.theme_panel(),
+        #rx.theme_panel(),
         rx.vstack(
             header(DATA),
             about(DATA.about),
@@ -39,7 +39,9 @@ app = rx.App(
     style=BASE_STYLE,
     theme=rx.theme(
         appearance="dark",
-        accent_color="grass",
+        accent_color="violet",
+        gray_color="sand",
+        panel_background="solid",
         radius="full"
     )
 )

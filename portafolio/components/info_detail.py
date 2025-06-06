@@ -18,7 +18,7 @@ def info_detail(info: Info) -> rx.Component:
                     color_scheme="gray"
                 ),
                 rx.cond(
-                    info.technologies,
+                    len(info.technologies) > 0,
                     rx.flex(
                         *[
                             rx.badge(

@@ -1,128 +1,128 @@
 {
-    "title": "Thomas A. Anderson (Neo) | Portafolio",
-    "description": "Soy Neo, posiblemente el mejor programador de la historia.",
-    "image": "/avatar.jpg",
-    "avatar": "/avatar.jpg",
-    "name": "Thomas A. Anderson (Neo)",
-    "skill": "Programador, hacker y el Elegido",
-    "location": "Matrix y el mundo real",
-    "media": {
-        "email": "neo@metacortex.com",
-        "cv": "/data/cv.pdf",
-        "github": "https://github.com/thomasanderson",
-        "likedin": "https://linkedin.com/in/thomasanderson"
+  "title": "Timothy Maldonado | Portafolio",
+  "description": "Soy Timothy, posiblemente el mejor programador de la historia.",
+  "image": "/avatar.jpg",
+  "avatar": "/avatar.jpg",
+  "name": "Timothy Maldonado",
+  "skill": "Programador",
+  "location": "Ecuador",
+  "media": {
+    "email": "2005maldonado@gmail.com",
+    "cv": "/data/cv.pdf",
+    "github": "https://github.com/FTimo77",
+    "likedin": "https://www.linkedin.com/in/timothy-malper/"
+  },
+  "about": "Soy un programador con experiencia en multiples lenguajes y tecnologias. He trabajado en proyectos medianos. Mi pasion por la programacion me ha llevado a explorar diversas areas, siempre buscando aprender y mejorar mis habilidades.",
+  "technologies": [
+    {
+      "icon": "devicon-kotlin-plain",
+      "name": "Kotlin"
     },
-    "about": "Soy un programador inquieto con una doble vida, ya que trabajo en una prestigiosa empresa de software pero también he cometido todos los crímenes informáticos que existen. Tengo la sensación de que nada es lo que parece ser.",
-    "technologies": [
+    {
+      "icon": "devicon-html5-plain",
+      "name": "HTML5"
+    },
+    {
+      "icon": "devicon-django-plain",
+      "name": "Django"
+    },
+    {
+      "icon": "devicon-android-plain",
+      "name": "Android"
+    },
+    {
+      "icon": "devicon-python-plain",
+      "name": "Python"
+    }
+  ],
+  "experience": [
+    {
+      "icon": "terminal",
+      "title": "Solinfo",
+      "subtitle": "Asesor Tecnico",
+      "description": "Gestion, asesoria y mantenimiento de sitio web.",
+      "date": "2024"
+    },
+    {
+      "icon": "powershell",
+      "title": "ITECDIRECTEC",
+      "subtitle": "Programador Web",
+      "description": "Desarrollo de una app web para la gestion de inventarios.",
+      "date": "2025 - Actualidad"
+    }
+  ],
+  "projects": [
+    {
+      "icon": "bar-chart-4",
+      "title": "Gestion de notas en Python",
+      "subtitle": "Aplicacion de escritorio de gestion de tareas",
+      "description": "Herramienta para una mejor organizacion de tareas y notas, con funcionalidades de busqueda y filtrado.",
+      "technologies": [
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Binario"
+          "icon": "devicon-python-plain",
+          "name": "Python"
         },
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Ensamblador"
-        },
-        {
-            "icon": "devicon-devicon-plain",
-            "name": "COBOL"
-        },
-        {
-            "icon": "devicon-c-plain",
-            "name": "C"
-        },
-        {
-            "icon": "devicon-python-plain",
-            "name": "Python"
+          "icon": "devicon-tkinter-plain",
+          "name": "tkinter"
         }
-    ],
-    "experience": [
+      ],
+      "image": "./proyect1.jpg",
+      "url": "",
+      "github": "https://github.com/FTimo77/Bloc_de_notas"
+    },
+    {
+      "icon": "bug-off",
+      "title": "Gestion de inventario",
+      "subtitle": "Mi obra maestra",
+      "description": "Aplicacion web de geston  de inventario para insumos medicos en una empresa de Television.",
+      "technologies": [
         {
-            "icon": "terminal",
-            "title": "Metacortex",
-            "subtitle": "Programador",
-            "description": "Programo software respetable desde un cubículo.",
-            "date": "1999"
-        },
-        {
-            "icon": "rabbit",
-            "title": "Nebuchadnezzar",
-            "subtitle": "El Elegido",
-            "description": "Me encargo de salvar el mundo.",
-            "date": "1999 - Actualidad"
+          "icon": "devicon-html5-plain",
+          "name": "HTML"
         }
-    ],
-    "projects": [
-        {
-            "icon": "bar-chart-4",
-            "title": "Software random",
-            "subtitle": "Software propiedad de Metacortex",
-            "description": "Herramienta para hacer rico a otras personas.",
-            "technologies": [
-                {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
-                },
-                {
-                    "icon": "devicon-django-plain",
-                    "name": "Django"
-                }
-            ],
-            "image": "/project_1.jpg",
-            "url": "https://matrix.fandom.com/wiki/MetaCortex",
-            "github": "https://github.com/thomasanderson"
-        },
-        {
-            "icon": "bug-off",
-            "title": "Hackeo Matrix",
-            "subtitle": "Mi obra maestra",
-            "description": "Migración del Matrix al mundo real y hackeo del sistema ficticio para salvar a la humanidad.",
-            "technologies": [
-                {
-                    "icon": "devicon-devicon-plain",
-                    "name": "Binario"
-                }
-            ],
-            "image": "/project_2.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
-        }
-    ],
-    "training": [
-        {
-            "icon": "backpack",
-            "title": "Central West Junior High",
-            "subtitle": "Una escuela",
-            "description": "Aprendí cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
-        },
-        {
-            "icon": "graduation-cap",
-            "title": "Owen Patterson High",
-            "subtitle": "Otra escuela",
-            "description": "Aprendí más cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
-        }
-    ],
-    "extras": [
-        {
-            "image": "/extra_1.jpg",
-            "title": "The Matrix",
-            "description": "Aparecí en esta película.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix"
-        },
-        {
-            "image": "/extra_2.jpg",
-            "title": "The Matrix Reloaded",
-            "description": "Y en esta otra.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Reloaded"
-        },
-        {
-            "image": "/extra_3.jpg",
-            "title": "The Matrix Revolutions",
-            "description": "Y en esta más.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Revolutions"
-        }
-    ]
+      ],
+      "image": "./proyect_2.jpg",
+      "url": "https://matrix.fandom.com/wiki/Wiki",
+      "github": "https://github.com/thomasanderson"
+    }
+  ],
+  "training": [
+    {
+      "icon": "backpack",
+      "title": "Tecnologo en Desarrollo de Software",
+      "subtitle": "Instituto Tecnologico Superior Universitario Compu Sur",
+      "description": "Formacion tecnica en desarrollo de software, incluyendo programacion, bases de datos y web design.",
+      "date": "2023-2025",
+      "certificate": "https://www.google.com/"
+    },
+    {
+      "icon": "graduation-cap",
+      "title": "Mastermind",
+      "subtitle": "Experto en programacion en Python",
+      "description": "Desarrollo de logica de programacion, estructuras de datos y algoritmos en Python.",
+      "date": "2022",
+      "certificate": "https://www.google.com/"
+    }
+  ],
+  "extras": [
+    {
+      "image": "./extra_1.jpg",
+      "title": "Google developers",
+      "description": "Mi perfil en Google Developers.",
+      "url": "g.dev/timothy7"
+    },
+    {
+      "image": "/extra_2.jpg",
+      "title": "Mis repositorios",
+      "description": "Codigo y mas codigo",
+      "url": "https://github.com/FTimo77"
+    },
+    {
+      "image": "/extra_3.jpg",
+      "title": "Mis Certificados",
+      "description": "Algo interesante que ver",
+      "url": "https://drive.google.com/drive/folders/1gYZ-bfigLI-FgzKv16DA9DgHGOWgvFLA?usp=sharing"
+    }
+  ]
 }
