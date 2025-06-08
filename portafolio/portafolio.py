@@ -10,29 +10,43 @@ from portafolio.views.tech_stack import tech_stack
 
 DATA = data.data
 
-
 def index() -> rx.Component:
-    return rx.center(
-        #rx.theme_panel(),
-        rx.vstack(
-            header(DATA),
-            about(DATA.about),
-            rx.divider(),
-            tech_stack(DATA.technologies),
-            info("Experiencia", DATA.experience),
-            info("Proyectos", DATA.projects),
-            info("Formación", DATA.training),
-            extra(DATA.extras),
-            rx.divider(),
-            footer(DATA.media),
-            spacing=Size.MEDIUM.value,
-            padding_x=EmSize.MEDIUM.value,
-            padding_y=EmSize.BIG.value,
-            max_width=MAX_WIDTH,
-            width="100%"
+    return rx.box(
+        # Fondo animado
+        rx.box(
+            position="fixed",
+            top="0",
+            left="0",
+            width="100%",
+            height="100%",
+            z_index="-1",
+            background_image="url('/code.gif')",  # Asegúrate de tener este archivo
+            background_size="cover",
+            background_repeat="no-repeat",
+            opacity="0.03",
+            filter="blur(2px)"
+        ),
+        # Contenido principal
+        rx.center(
+            rx.vstack(
+                header(DATA),
+                about(DATA.about),
+                rx.divider(),
+                tech_stack(DATA.technologies),
+                info("Experiencia", DATA.experience),
+                info("Proyectos", DATA.projects),
+                info("Formación", DATA.training),
+                extra(DATA.extras),
+                rx.divider(),
+                footer(DATA.media),
+                spacing=Size.MEDIUM.value,
+                padding_x=EmSize.MEDIUM.value,
+                padding_y=EmSize.BIG.value,
+                max_width=MAX_WIDTH,
+                width="100%"
+            )
         )
     )
-
 
 app = rx.App(
     stylesheets=STYLESHEETS,

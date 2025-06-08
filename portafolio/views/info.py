@@ -20,3 +20,5 @@ def info(title: str, info: list[Info]) -> rx.Component:
         spacing=Size.DEFAULT.value,
         width="100%"
     )
+
+

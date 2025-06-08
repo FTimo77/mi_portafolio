@@ -1,7 +1,7 @@
 from enum import Enum
 import reflex as rx
 
-MAX_WIDTH = "900px"
+MAX_WIDTH = "1100px"
 IMAGE_HEIGHT = "200px"
 
 
