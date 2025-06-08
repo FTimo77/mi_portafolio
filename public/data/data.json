@@ -1,0 +1,128 @@
+{
+  "title": "Timothy Maldonado | Portafolio",
+  "description": "Soy Timothy, posiblemente el mejor programador de la historia.",
+  "image": "/avatar.jpg",
+  "avatar": "/avatar.jpg",
+  "name": "Timothy Maldonado",
+  "skill": "Programador",
+  "location": "Ecuador",
+  "media": {
+    "email": "2005maldonado@gmail.com",
+    "cv": "/data/cv.pdf",
+    "github": "https://github.com/FTimo77",
+    "likedin": "https://www.linkedin.com/in/timothy-malper/"
+  },
+  "about": "Soy un programador con experiencia en multiples lenguajes y tecnologias. He trabajado en proyectos medianos. Mi pasion por la programacion me ha llevado a explorar diversas areas, siempre buscando aprender y mejorar mis habilidades.",
+  "technologies": [
+    {
+      "icon": "devicon-kotlin-plain",
+      "name": "Kotlin"
+    },
+    {
+      "icon": "devicon-html5-plain",
+      "name": "HTML5"
+    },
+    {
+      "icon": "devicon-django-plain",
+      "name": "Django"
+    },
+    {
+      "icon": "devicon-android-plain",
+      "name": "Android"
+    },
+    {
+      "icon": "devicon-python-plain",
+      "name": "Python"
+    }
+  ],
+  "experience": [
+    {
+      "icon": "terminal",
+      "title": "Solinfo",
+      "subtitle": "Asesor Tecnico",
+      "description": "Gestion, asesoria y mantenimiento de sitio web.",
+      "date": "2024"
+    },
+    {
+      "icon": "powershell",
+      "title": "ITECDIRECTEC",
+      "subtitle": "Programador Web",
+      "description": "Desarrollo de una app web para la gestion de inventarios.",
+      "date": "2025 - Actualidad"
+    }
+  ],
+  "projects": [
+    {
+      "icon": "bar-chart-4",
+      "title": "Gestion de notas en Python",
+      "subtitle": "Aplicacion de escritorio de gestion de tareas",
+      "description": "Herramienta para una mejor organizacion de tareas y notas, con funcionalidades de busqueda y filtrado.",
+      "technologies": [
+        {
+          "icon": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "icon": "devicon-tkinter-plain",
+          "name": "tkinter"
+        }
+      ],
+      "image": "./proyect1.jpg",
+      "url": "",
+      "github": "https://github.com/FTimo77/Bloc_de_notas"
+    },
+    {
+      "icon": "bug-off",
+      "title": "Gestion de inventario",
+      "subtitle": "Mi obra maestra",
+      "description": "Aplicacion web de geston  de inventario para insumos medicos en una empresa de Television.",
+      "technologies": [
+        {
+          "icon": "devicon-html5-plain",
+          "name": "HTML"
+        }
+      ],
+      "image": "./proyect_2.jpg",
+      "url": "https://matrix.fandom.com/wiki/Wiki",
+      "github": "https://github.com/thomasanderson"
+    }
+  ],
+  "training": [
+    {
+      "icon": "backpack",
+      "title": "Tecnologo en Desarrollo de Software",
+      "subtitle": "Instituto Tecnologico Superior Universitario Compu Sur",
+      "description": "Formacion tecnica en desarrollo de software, incluyendo programacion, bases de datos y web design.",
+      "date": "2023-2025",
+      "certificate": "https://www.google.com/"
+    },
+    {
+      "icon": "graduation-cap",
+      "title": "Mastermind",
+      "subtitle": "Experto en programacion en Python",
+      "description": "Desarrollo de logica de programacion, estructuras de datos y algoritmos en Python.",
+      "date": "2022",
+      "certificate": "https://www.google.com/"
+    }
+  ],
+  "extras": [
+    {
+      "image": "./extra_1.jpg",
+      "title": "Google developers",
+      "description": "Mi perfil en Google Developers.",
+      "url": "g.dev/timothy7"
+    },
+    {
+      "image": "/extra_2.jpg",
+      "title": "Mis repositorios",
+      "description": "Codigo y mas codigo",
+      "url": "https://github.com/FTimo77"
+    },
+    {
+      "image": "/extra_3.jpg",
+      "title": "Mis Certificados",
+      "description": "Algo interesante que ver",
+      "url": "https://drive.google.com/drive/folders/1gYZ-bfigLI-FgzKv16DA9DgHGOWgvFLA?usp=sharing"
+    }
+  ]
+}
