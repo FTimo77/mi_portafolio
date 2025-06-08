@@ -20,7 +20,7 @@ def index() -> rx.Component:
             width="100%",
             height="100%",
             z_index="-1",
-            background_image="url('/code.gif')",  # Asegúrate de tener este archivo
+            background_image="url('/assets/code.gif')", 
             background_size="cover",
             background_repeat="no-repeat",
             opacity="0.03",
