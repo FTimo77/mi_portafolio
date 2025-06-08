@@ -13,4 +13,3 @@ deactivate
 cp assets/code.gif public/code.gif
 
 rm -f frontend.zip
-deactivate
