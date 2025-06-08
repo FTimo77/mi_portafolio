@@ -8,3 +8,9 @@ reflex export --frontend-only
 unzip frontend.zip -d public
 rm -f frontend.zip
 deactivate
+
+# Copiar el gif al folder public para que sea accesible
+cp assets/code.gif public/code.gif
+
+rm -f frontend.zip
+deactivate
